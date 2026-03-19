@@ -46,5 +46,5 @@ Diseño inspirado en la era vikinga (madera, hierro, runas y pergamino) fusionad
 
 ![Vista previa de Vinland Landing Page](./src/imgs/preview-vinland.png)
 
-> *Captura de la landing page completa mostrando la sección "Líderes y Leyendas"*
+> *Captura de la landing page completa mostrando la sección "Principal"*
 > <br> by: Jonathan Caixba 🤟🖤
