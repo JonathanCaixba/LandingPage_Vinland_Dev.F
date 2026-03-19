@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinland: El Sueño Vikingo</title>
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=UnifrakturCook:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <span class="rune">ᚠ</span> VINLAND <span class="year">1000 d.C.</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#rutas">El Viaje</a></li>
+                <li><a href="#personajes">Líderes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>El Primer Asentamiento en América</h1>
+            <h2 class="hero-subtitle">Mucho antes que Colón, los drakkars besaron las costas de Terranova</h2>
+            <a href="#historia" class="btn-viking">Explorar las Sagas</a>
+        </div>
+    </section>
+
+    <main class="container">
+
+        <!-- HISTORIA -->
+        <section id="historia" class="section">
+            <h2 class="section-title">Las Sagas Nórdicas</h2>
+            <div class="grid-layout">
+                <article class="info-block">
+                    <div class="image-container">
+                        <img src="./src/imgs/llegada_leif.jpg" alt="Leif Erikson" class="info-img">
+                    </div>
+                    <h3>Leif Erikson: El Descubridor</h3>
+                    <p>Hijo de Erik el Rojo, Leif guio a su tripulación hacia el oeste. Las sagas cuentan que llegó a un
+                        lugar de pastos verdes y viñas, al que llamó <strong>Vinland</strong>.</p>
+                </article>
+
+                <article class="info-block">
+                    <div class="image-container">
+                        <img src="./src/imgs/Vinland_Real.jpg" alt="L'Anse aux Meadows" class="info-img">
+                    </div>
+                    <h3>L'Anse aux Meadows</h3>
+                    <p>La única evidencia arqueológica confirmada de un asentamiento vikingo en América del Norte,
+                        datado alrededor del año 1000 d.C.</p>
+                </article>
+
+                <article class="info-block">
+                    <div class="image-container">
+                        <img src="./src/imgs/Biarne.webp" alt="Biarne Herjólfsson" class="info-img">
+                    </div>
+                    <h3>Biarne Herjólfsson</h3>
+                    <p>Biarne Herjólfsson es reconocido por las sagas nórdicas como el primer europeo en avistar América
+                        del Norte, aproximadamente en el año <b>985</b> o <b>986</b>, unos 15 años antes que Leif
+                        Erikson.
+                        Herjólfsson se desvió de su ruta hacia Groenlandia y divisó nuevas tierras al oeste, sin
+                        desembarcar, dando paso a que Erikson explorara esas regiones posteriormente.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- RUTAS -->
+        <section id="rutas" class="map-section">
+            <div class="map-text">
+                <h2>La Ruta del Océano Gélido</h2>
+                <p>Navegar desde Groenlandia hasta las costas de América del Norte fue una hazaña legendaria. Siguieron
+                    las corrientes hacia Helluland, Markland y finalmente Vinland.</p>
+            </div>
+            <div class="map-image">
+                <img src="./src/imgs/mapa_rutas.webp" alt="Mapa de rutas vikingas a Vinland" class="map-img">
+            </div>
+        </section>
+
+        <!-- ====================== LÍDERES Y LEYENDAS ====================== -->
+        <section id="personajes" class="section">
+            <h2 class="section-title">Líderes y Leyendas</h2>
+
+            <div class="personajes-split">
+
+                <!-- == LADO IZQUIERDO: HISTÓRICOS == -->
+                <div class="column real">
+                    <h3 class="column-title">Líderes Históricos</h3>
+                    <div class="cards-row">
+
+                        <!-- Thorfinn Karlsefni - Estatua real -->
+                        <div class="card" onclick="this.classList.toggle('flipped')">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <h3>Thorfinn Karlsefni</h3>
+                                    <p>Líder del mayor intento de colonización en Vinland.<br><strong>Toca para ver su
+                                            estatua real.</strong></p>
+                                </div>
+                                <div class="card-back"
+                                    style="background-image: url('./src/imgs/ThorfinnKarlsefni.jpg');">
+                                    <div class="back-overlay">
+                                        <span class="back-text">Estatua en Islandia</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Leif Erikson - Estatua real -->
+                        <div class="card" onclick="this.classList.toggle('flipped')">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <h3>Leif Erikson</h3>
+                                    <p>El descubridor de Vinland. Hijo de Erik el Rojo. <br><strong>Toca para ver su
+                                            estatua real.</strong></p>
+                                </div>
+                                <div class="card-back" style="background-image: url('./src/imgs/leif.jpg');">
+                                    <div class="back-overlay">
+                                        <span class="back-text">Estatua en Islandia</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- == LADO DERECHO: FICCIÓN == -->
+                <div class="column fiction">
+                    <h3 class="column-title">Ficción — Vinland Saga</h3>
+                    <div class="cards-row">
+
+                        <!-- Thorfinn del Manga -->
+                        <div class="card" onclick="this.classList.toggle('flipped')">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <h3>Thorfinn (Manga)</h3>
+                                    <p>El Thorfinn de Makoto Yukimura: de esclavo a guerrero legendario.<br><strong>Toca
+                                            para ver el arte oficial.</strong></p>
+                                </div>
+                                <div class="card-back" style="background-image: url('./src/imgs/Thorfinn_Manga.webp');">
+                                    <div class="back-overlay">
+                                        <span class="back-text">Arte oficial del manga</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Portada oficial del Manga -->
+                        <div class="card" onclick="this.classList.toggle('flipped')">
+                            <div class="card-inner">
+                                <div class="card-front">
+                                    <h3>Vinland Saga</h3>
+                                    <p>Obra maestra de Makoto Yukimura (2005). 29 tomos.<br>Explora venganza, guerra y
+                                        la búsqueda de un paraíso llamado Vinland.</p>
+                                </div>
+                                <div class="card-back" style="background-image: url('./src/imgs/Vinlandt18.jpg');">
+                                    <div class="back-overlay">
+                                        <span class="back-text">Portada Oficial</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ====================== FOOTER ====================== -->
+    <footer class="footer-modern">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>Crónicas Nórdicas</h3>
+                <p>Preservando la historia del primer encuentro entre dos mundos.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Enlaces</h3>
+                <ul>
+                    <li><a href="#historia">Historia</a></li>
+                    <li><a href="#rutas">El Viaje</a></li>
+                    <li><a href="#personajes">Líderes</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Vinland Project DEV.F • Hecho con fuego y acero por Jonathan Caixba</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
